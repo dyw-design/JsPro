@@ -1,0 +1,22 @@
+.heart{width:1000px;margin:0 auto;}
+header{border-bottom:2px solid #2d8800;padding:8px 0 0;}
+header a{}
+header a img{}
+main{background:url(../img/login-bg.jpg) no-repeat center;background-size:1000px 500px;height:500px;padding:20px 0 10px;position:relative;}
+main .login-page{width:374px;border:6px solid #ececec;padding:2px;background:#f7f8f8;position:absolute;right:45px;top:66px;}
+main h3{font:16px/66px "微软雅黑";color:#646160;}
+main .login-content{padding:10px 33px 50px;}
+main .login-content input{width:302px;font:12px/26px "微软雅黑";border:1px solid #ccc;outline: none;margin:0;}
+main .login-content span{display:block;text-align: right;color:#cccccc;font:12px/2 "微软雅黑";}
+main .login-content span a{color:#aaaaaa;}
+main .login-content .menu{padding:34px 0 22px 0;position:relative;}
+main .login-content .menu .login-err{font:12px/20px "微软雅黑";color:red;background:pink;position:absolute;top:14px;left:0;padding:0 10px;display:none;}
+main .login-content .btn-register{margin-left:16px;}
+main h4{font:12px/2 "微软雅黑";border-top:1px dashed #b5b5b5;color:#595757;padding-top:10px;}
+main ul {overflow:hidden;}
+main ul li{float:left;margin-top:16px;border-right:1px solid #aaaaaa;}
+main ul li a{padding:2px 16px;}
+
+footer{padding:20px 0;background:#efefef;}
+footer p{font:12px/2 "微软雅黑";color:#606060;text-align: center;}
+.page-footer{height:28px;background:#8cb91e;}

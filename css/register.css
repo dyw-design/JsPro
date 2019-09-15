@@ -1,0 +1,28 @@
+.heart{width:1000px;margin:0 auto;}
+
+
+header{padding:10px 20px;border-bottom:2px solid #2d8800;box-sizing:border-box;}
+.logo{float:left;}
+header .header-left{float:left;}
+header .header-left h3{float:left;font:20px/5 "微软雅黑";color:#333333;}
+header .header-right{float:right;font:16px/100px "微软雅黑";color:#999999;}
+header .header-right a{color:#333;}
+
+main {}
+main form{margin:0 auto;width:;padding-bottom:67px;width:360px;padding:51px 40px 67px;}
+
+main form input{width:278px;font-size:14px;padding:6px 10px;border:1px solid #ccc;margin-bottom:19px;}
+main form input.btn-send{}
+main .promise{font:12px/40px "宋体";line-height:40px;}
+main div{position:relative;}
+main form p{font:12px/20px "微软雅黑";position:absolute;top:-20px;left:0;background:pink;color:red;display:block;padding:0 10px;display:none;}
+main form input.check{width:13px;margin:0;}
+main form input.phonecode{width:153px;}
+main form input.btn-send{margin-left:26px;width:100px;font:12px/34px "微软雅黑";color:#fff;padding:0;}
+main form input.btn-register{margin:0;} 
+main form .register-err{position:absolute;right:0;top:0;font:12px/20px "微软雅黑";color:red;background:pink;display:none;}
+.invite{font:12px/46px "微软雅黑";}
+.invite a{color:green;}
+footer{padding:20px 0;background:#efefef;}
+footer p{font:12px/2 "微软雅黑";color:#606060;text-align: center;}
+.page-footer{height:28px;background:#8cb91e;}

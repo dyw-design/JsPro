@@ -1,0 +1,24 @@
+
+        .cart-top{margin:0 auto;width:1210px;}
+        .cart-top .left{float:left;}
+        .cart-top .right{float:right;}
+        table{margin-top:10px;}
+        table img{width:100px;height:100px;}
+        .del{width:40px;background:#ccf;}
+        #sum{width:1210px;margin:0 auto;border:1px solid #000;border-top:0;text-align:right;height:30px;font:12px/30px "微软雅黑";}
+        #sum span{color:red;margin-right:10px;}
+        #sum input{width:60px;font:14px/20px "微软雅黑";margin-right:10px;}
+        table i{font-style:normal;color:red;}
+        th{height:30px;text-align:center;font:16px/30px "微软雅黑";}
+        td{text-align:center;background:#fcfcfc;}
+        td input{text-align:center;}
+        .h{width:1210px;margin:0 auto;overflow:hidden;background:#ccc;}
+        .h ul{float:right;}
+        .h ul li{float:left;padding:0 8px;font:12px/27px "微软雅黑";}
+        .h a{color:#606060;}
+        .reg{margin-left:10px;}
+        .tofirst{float:left;font:12px/27px "微软雅黑";margin-left:10px;}
+        footer{padding:20px 0;background:#efefef;}
+        footer p{font:12px/2 "微软雅黑";color:#606060;text-align: center;}
+        .page-footer{height:28px;background:#8cb91e;}
+        #empty{border:1px solid #000;border-top:0;width:1210px;margin:0 auto;text-align:center;font:16px/30px "微软雅黑";display:none;}

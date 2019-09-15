@@ -1,0 +1,151 @@
+.heart{width:1210px;}
+header{font:12px/32px "微软雅黑";background:#f5f5f5;color:#606060;line-height:32px;box-sizing: border-box;height:32px;}
+#top-fix{position:fixed;width:100%;background:white;opacity:0.9;top:0;z-index:99999;padding:0 0 12px;display:none;}
+#top-fix .search-form{margin:18px 0 0 158px;}
+.tel-number{width:174px;}
+.tel-number h3{margin-top:18px;font-size:14px;
+font-family:800;color:#c30000;}
+.tel-number h4{font:14px/2 "微软雅黑";color:#c30000;}
+
+header .header-left .local-city{float:left;font:12px/32px "微软雅黑";}
+header .header-left .local-city span{display:block;font:12px/32px "微软雅黑";float:left;}
+header .header-left .local-city i.house-logo{float:left;display:block;width:13px;height:32px;background:url(../img/smallhouse.png) no-repeat center;margin-right:3px;}
+header .header-left i.down-arow{float:left;display:block;width:6px;height:32px;background:url(../img/downarow.png) no-repeat center;margin-left:6px;}
+header .header-left .local-city b{float:left;padding:0 8px 0 14px;}
+header .header-left .welcome{float:left;font:12px/32px "微软雅黑";margin-left:32px;}
+header .header-left .welcome span{margin-right:10px;}
+header a{color:#606060;}
+header .header-left .welcome a{color:#606060;margin-right:20px;}
+header .header-left a:hover{color:yellowgreen;}
+header a:hover{color:yellowgreen;}
+
+header .header-right{margin-right:12px;font:12px/32px "微软雅黑";height:32px;}
+/* header .header-right p{float:left;} */
+header .header-right span{display:block;}
+header .header-right i{display:block;background:url(../img/downarow.png) no-repeat center;width:6px;height:32px;margin-left:6px;}
+header .header-right em{display:block;height:11px;width:11px;background: url(../img/cart-logo.png ) no-repeat center;margin-right:3px;margin-top:10px;}
+/* header .header-right a{display:block;} */
+header .header-right .bank{margin-right:10px;position:relative;padding:0 10px 0 15px;}
+.service,.cart,.company{padding:0 10px 0 10px;}
+header .header-right span.bj{color:#e9dde7;display:block;float:left;}
+header .header-right .icbc{margin-right:15px;}
+
+.myacount{width:202px;position:absolute;left:-1px;top:32px;background:#fff;z-index:5;display:none;}
+.myacount ul {padding:0 0 5px 5px}
+.myacount ul li{height:32px;}
+.myacount ul li a{padding:5px 10px;background:#f5f5f5;margin-right:5px;}
+.myacount ul li span{width:76px;float:left;}
+.myacount ul li a.login{display:block;float:left;padding:0;background:none;margin:0;color:#328500;}
+.myacount ul li a.login:hover{text-decoration: underline;}
+
+.service{position:relative;}
+.user-service{width:82px;padding:4px 0 5px 12px;position:absolute;top:32px;left:-1px;z-index:5;display:none;}
+.user-service p{font:12px/32px "微软雅黑";color:#606060;} 
+
+
+/* 搜索框 */
+#header-search{height:86px;margin-top:35px;}
+#header-search .logo{margin-top:1px;}
+.search-form{width:625px;background:#fff;margin-top:10px;}
+.search-form .search-text{border:1px solid #c20000;width:586px;}
+.search-form .search-top a{background:#fff;width:28px;margin-left:8px;margin-top:5px;color:#606060;}
+.search-form .search-top a:hover{color:yellowgreen;}
+.search-form .search-top .txt{height:38px;width:452px;outline: none;font:14px/38px "微软雅黑";color:#c20000;}
+.search-form .search-top .btn1{height:38px;width:32px;background:url(../img/search.png) no-repeat center;outline:none;}
+.search-form .search-top .btn2{height:38px;width:100px;background:#c20000;outline:none;font:18px/38px "微软雅黑";color:#fff;}
+.search-form .search-down a{margin-right:18px;font:12px/3 "微软雅黑";color:#606060;}
+.search-form .search-down a:hover{color:yellowgreen;;}
+.weichat{margin-top:3px;}
+#kinds{border-bottom:2px solid #328500;}
+#classify {margin-top:32px;}
+#classify ul{margin-left:241px;}
+#classify ul li{}
+#classify ul li a{font:16px/42px "微软雅黑";color:#606060;padding:0 11px;}
+#classify ul li:hover a{color:#3a9901;}
+
+#classify .goods-cart{width:200px;height:42px;position:relative;}
+#classify .goods-cart em{margin-left:41px;width:27px;height:20px;background:url(../img/css-sprite.png) no-repeat center;background-position:-47px 0;position: relative;margin-top:11px;}
+#classify .goods-cart s.msg{width:25px;height:20px;position:absolute;background:url(../img/css-sprite.png) no-repeat center;background-position:-10px -40px;left:9px; top:-17px;color:#fff;}
+#classify .goods-cart i{width:10px;height:6px;background:url(../img/css-sprite.png) no-repeat center;background-position:0 -40px;margin-top:18px;}
+#classify .goods-cart span{font:12px/40px "微软雅黑";margin:0 38px 0 15px;color:#606060;}
+#classify .goods-cart span a{color:#606060;}
+#classify .goods-cart span a:hover{color:#3a9901;}
+#classify .goods-cart .cart-info{display:none;height:115px;width:358px;border:1px solid #3a9901;position:absolute;left:-159px;top:42px;z-index:99999;background:#fff;}
+#classify .goods-cart .cart-info img{display:block;margin:15px auto 0;}
+#classify .goods-cart .cart-info p{text-align:center;color:#606060;font:12px/20px "微软雅黑";}
+#classify .goods-cart .cart-info p a{color:#c40000;}
+.m{width:1210px;margin:0 auto;position:relative;}
+.banner-left {width:210px;position:absolute;top:-46px;}
+.banner-left h3{font:800 16px/46px "微软雅黑";background:#328500;color:#fff;text-align: center;}
+.banner-left ul{padding:5px 0;background:#3da601;position:relative;display:none;}
+.banner-left ul li{font:12px/40px "微软雅黑";overflow:hidden;}
+/* #banner .banner-left ul li:first-child .menu-content{display:block;} */
+.banner-left ul li i{height:18px;width:18px;background:url(../img/t2.png) no-repeat center;display:block;float:left;background-position:-1px -3px;margin:12px 17px 0 20px;}
+.banner-left ul li a{font:12px/40px "微软雅黑";display:block;float:left;margin-right:10px;color:#fff;}
+.menu-content{width:800px;height:450px;background:whitesmoke;position:absolute;left:210px;top:0;display:none;z-index:99999;}
+.menu-content dl{padding-left:48px;padding-top:33px;}
+.menu-content dl dd{overflow:hidden;}
+.banner-left .menu-content dl dd a{margin-right:0;display:inline;clear:left;}
+.menu-content dl dd span{display:block;overflow:hidden;float:left;height:40px;line-height:40px;}
+.banner-left .menu-content dl dd span a{font:14px/40px "微软雅黑";color:#606060;}
+.banner-left .menu-content dl dd span a:hover{color:#328500;}
+.banner-left .menu-content dl dd b{display:block;float:left;height:40px;line-height:40px;}
+.menu-content dl dd s{display:block;float:left;width:4px;height:6px;background:url(../img/css-sprite.png) no-repeat center;background-position:-98px 0;margin:18px 0 0 7px;}
+.menu-content dl dd p{font:12px/44px "微软雅黑";width:580px;overflow:hidden;border-bottom:1px solid #dedede;margin-left:10px;float:left;}
+.banner-left .menu-content dl dd p a{padding:0 8px;color:#757575;}
+.banner-left .menu-content dl dd p a:hover{color:#3da601;}
+/* .menu-content dl dd a{padding:0 8px;} */
+.blur{display:block;}
+.menu-hover{background:white;color:green;}
+
+.p{font:12px/34px "微软雅黑";}
+.p a{padding:0 5px;color:#606060;}
+.left{position:relative;} 
+.left p{width:400px;height:300px;margin: 0;position: absolute;z-index: 1;left:0;top:0;}
+#sbox{width:400px;height:300px;position:relative;left:20px;top:0;overflow:hidden;border:1px solid #000;}
+#sbox img{width:400px;height:300px}
+#sbox span{display:none;position:absolute;left:0;top:0;background:rgba(200,200,200,.6);}
+#bbox{display:none;width:400px;height:300px;overflow:hidden;left:430px;top:0;position:absolute;
+border:1px solid #000;
+}
+#bbox img{width:1200px;position:absolute;}
+.sp{}
+.sp .right{margin-left:40px;}
+.right h3{font:16px/24px "微软雅黑";}
+h3 b{background:#c20312;padding:2px;font:14px/24px "微软雅黑";margin-right:5px;color:#fff;}
+.content{background:#f5f5f5;padding:10px 0 10px 15px;}
+.price{font-size:26px;color:#c40000;font-family:"微软雅黑";}
+.price b{font-size:12px;margin-left:5px;}
+.price i{font-size:14px;}
+.advertise{margin-top:15px;}
+.advertise s{font:14px/24px "微软雅黑";margin-right:5px;background:#c20312;}
+.advertise a{color:#666;font:12px/24px "微软雅黑"}
+.count{padding-left:10px;margin-top:15px;}
+.count span{float:left;display:block;font:12px/28px "微软雅黑";}
+.count ul{overflow:hidden;float:left;margin-left:10px;}
+.count ul li{float:left;width:15px;font:12px/28px "微软雅黑";border:1px solid #000;text-align:center;}
+.count ul li:nth-child(2){width:30px;border-left:0;border-right:0;}
+.count ul li span{width:30px;display:block;}
+#addcart{background: #c20000;color:#fff;font:20px/40px "微润雅黑";border:0;width:150px;text-align:center;margin-top:15px;}
+
+main .list{}
+main .list .jb-box{overflow:hidden;width:952px;height:320px;position:relative;}
+.jb-box .jb-left{left:0;text-align:center;top:0;bottom:0;margin:auto;height:38px;width:32px;background:rgb(200,200,200,.8);position:absolute;font:700 12px/38px "宋体";color:#fff;z-index:9999;display:block;}
+.jb-box .jb-right{text-align:center;top:0;bottom:0;margin:auto;height:38px;width:32px;background:rgb(200,200,200,.8);position:absolute;font:700 12px/38px "宋体";color:#fff;z-index:9999;display:block;right:0;}
+main .list{overflow:hidden;width:110%;}
+main .list li{float:left;width:238px;margin-right:5px;height:320px;}
+main .list li .top{width:238px;height:220px;}
+main .list li .top img{width:180px;height:180px;transition:0.7s;margin:20px auto 0;}
+main .list li .top:hover img{transform: scale(1.2)}
+main .list li .down {background:#f1f7f5;padding-bottom:6px;}
+main .list li .down p{text-indent:20px;}
+main .list li .down .goods-name{font:16px/23px "微软雅黑";margin-top:11px;color:#2d2d39;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:230px;}
+main .list li .down .goods-name a{color:#2d2d39;}
+main .list li .down .goods-name a:hover{color:#3da601;}
+main .list li .down .goods-heavy{font:12px/23px "微软雅黑";color:#5b605a;}
+main .list li .down .goods-heavy:hover{color:#3da601;text-decoration:underline;}
+main .list li .down .goods-price{font:16px/37px "微软雅黑";color:red;}
+main .list li .down .goods-price input{height:26px;width:80px;background:orange;font:12px/26px "微软雅黑";margin-left:65px;color:#fff;}
+footer{padding:20px 0;background:#efefef;margin-top:20px;}
+footer p{font:12px/2 "微软雅黑";color:#606060;text-align: center;}
+.page-footer{height:28px;background:#8cb91e;}

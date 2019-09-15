@@ -1,0 +1,32 @@
+.heart{width:1000px;margin:0 auto;}
+header{padding:10px 20px;border-bottom:2px solid #2d8800;box-sizing:border-box;
+    .header-left{float:left;
+        h3{float:left;font:20px/5 "微软雅黑";color:#333333;}
+        .logo{float:left;}
+    }
+    .header-right{float:right;font:16px/100px "微软雅黑";color:#999999;
+        a{color:#333;}
+    }
+}
+
+main {
+    form{margin:0 auto;padding-bottom:67px;width:360px;padding:51px 40px 67px;
+        div{position:relative;}
+        input{width:278px;font-size:14px;padding:6px 10px;border:1px solid #ccc;margin-bottom:19px;}
+        .promise{font:12px/40px "宋体";line-height:40px;}
+        p{font:12px/20px "微软雅黑";position:absolute;top:-20px;left:0;background:pink;color:red;display:block;padding:0 10px;display:none;}
+        .check{width:13px;margin:0;}
+        .phonecode{width:153px;}
+        .btn-send{margin-left:26px;width:100px;font:12px/34px "微软雅黑";color:#fff;padding:0;}
+        .btn-register{margin:0;} 
+        .register-err{position:absolute;right:0;top:0;font:12px/20px "微软雅黑";color:red;background:pink;display:none;}
+        .invite{font:12px/46px "微软雅黑";
+            a{color:green;}
+        }
+    }
+}
+
+footer{padding:20px 0;background:#efefef;
+    p{font:12px/2 "微软雅黑";color:#606060;text-align: center;}
+}
+.page-footer{height:28px;background:#8cb91e;}
